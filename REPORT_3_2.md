@@ -1,4 +1,4 @@
-# t-sne msthod
+# t-sne method
 
 1. We utilize Alzheimer's Disease (AD) data from UPMC and MGB. The case group consists of individuals diagnosed within 0-2 years, while the control group includes individuals from 10-5 years before diagnosis. From each group, we select 5000 data points for t-SNE analysis.
 2. UPMC dataL Shanshan has already cleaned the data (rm some patients), using `UPMC_AD_survival_analysis_df_1.RData`; while MGB data remain no cleaning
