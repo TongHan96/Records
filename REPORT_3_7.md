@@ -3,10 +3,10 @@
 ## Before supervised
 ### UPMC
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc_wgt.png" alt="upmc_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc_wgt.png" alt="UPMC_wgt" title="Weighted" width="400"/>
   <em>upmc weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc.png" alt="upmc" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc.png" alt="UPMC" title="Origin" width="400"/>
   <em>upmc</em>
 </p>
 
@@ -22,10 +22,10 @@
 ## After supervised
 
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_MGB.png" alt="MGB_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_MGB.png" alt="MGB" title="Weighted" width="400"/>
   <em>MGB weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc.png" alt="UPMC_wgt" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
   <em>UPMC weighted</em>
 </p>
 
