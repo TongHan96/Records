@@ -44,7 +44,7 @@ P_j = \{5 codes with minimum cosine similarity of j\}
 N_j = \{5 codes with maximun cosine similarity of j\}
 ```
 ```math
-Loss_j = \frac{1}{AA} \cdot \log\left(1 + \sum_{i \in P_j} \exp\left(-AA \cdot (x^i \cdot x_j - \lambda)\right)\right) + \frac{1}{BB} \cdot \log\left(1 + \sum_{i \in N_j} \exp\left(BB \cdot (x^i \cdot x_j - \lambda)\right)\right)
+Loss_j = \frac{1}{\alpha} \cdot \log\left(1 + \sum_{i \in P_j} \exp\left(-\alpha \cdot (x_i^T \cdot x_j - \lambda)\right)\right) + \frac{1}{\beta} \cdot \log\left(1 + \sum_{i \in N_j} \exp\left(\beta \cdot (x_i^T \cdot x_j - \lambda)\right)\right)
 ```
 ```math
 Loss = \sum_{j} Loss_j
