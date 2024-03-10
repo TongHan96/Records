@@ -21,5 +21,11 @@
 
 ## After supervised
 
-
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_mgb_wgt.png" alt="MGB_wgt" title="Weighted" width="400"/>
+  <em>MGB weighted</em>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc_wgt.png" alt="UPMC_wgt" title="Origin" width="400"/>
+  <em>MGB</em>
+</p>
 
