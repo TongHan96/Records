@@ -22,7 +22,7 @@
 ## After supervised
 
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_MGB.png" alt="MGB" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_mgb.png" alt="MGB" title="Weighted" width="400"/>
   <em>MGB</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
