@@ -1,5 +1,10 @@
 # Records
 
+## Methods
+
+1. For case group: Select patient's records after diagnose AD date.
+2. 
+
 ## Calssifty Accuracy
 
 | Metric        | UPMC  | MGB   |
