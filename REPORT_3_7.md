@@ -38,9 +38,15 @@ cos_similarity = pt\_emb\_registry * pt\_emb\_chart^T
 In the loss function, we use the constractive learning. We divide the chart group into 3 parts: train, validation and test set (3:2:5). Then we use the labels in train set to train U and b.
 
  ```math
-P_j = {5 codes with minimum cosine similarity of j}
-N_j = {5 codes with maximun cosine similarity of j}
+P_j = \{5 codes with minimum cosine similarity of j\}
+```
+```math
+N_j = \{5 codes with maximun cosine similarity of j\}
+```
+```math
 Loss_j = 1 / AA * torch.log(1+\sum_{i \in P_j} {exp(-AA*(x^i^Tx_j - \lambda))}) + 1 / BB * torch.log(1+\sum_{i \in N_j} {exp(BB*(x^i^Tx_j - \lambda))})
+```
+```math
 Loss = \sum_{j} Loss_j
 ```
 
