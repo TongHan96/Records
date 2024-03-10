@@ -6,7 +6,7 @@
   <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc_wgt.png" alt="upmc_wgt" title="Weighted" width="400"/>
   <em>upmc weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc.png" alt="upmc" title="Origin" width="400", height='500'/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc.png" alt="upmc" title="Origin" width="400", height='300'/>
   <em>upmc</em>
 </p>
 
