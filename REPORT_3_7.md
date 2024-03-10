@@ -8,8 +8,10 @@
 | Before Supervised (Non-weighted) | 0.655 | 0.450 |
 | After Supervised (Weighted)| 0.728 | 0.625 |
 
-## Before supervised
-### UPMC
+
+## tsne  plot
+### Before supervised
+#### UPMC
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc_wgt.png" alt="UPMC_wgt" title="Weighted" width="400"/>
   <em>upmc weighted</em>
@@ -18,7 +20,7 @@
   <em>upmc</em>
 </p>
 
-### MGB
+#### MGB
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic/mgb_wgt.png" alt="MGB_wgt" title="Weighted" width="400"/>
   <em>MGB weighted</em>
@@ -27,7 +29,7 @@
   <em>MGB</em>
 </p>
 
-## After supervised
+### After supervised
 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_mgb.png" alt="MGB" title="Weighted" width="400"/>
