@@ -1,6 +1,6 @@
 # Records
 
-Here's your data organized into a markdown table for a clearer comparison:
+## Calssifty Accuracy
 
 | Metric        | UPMC  | MGB   |
 |---------------|-------|-------|
