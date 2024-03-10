@@ -23,9 +23,9 @@
 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_MGB.png" alt="MGB" title="Weighted" width="400"/>
-  <em>MGB weighted</em>
+  <em>MGB</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
-  <em>UPMC weighted</em>
+  <em>UPMC</em>
 </p>
 
