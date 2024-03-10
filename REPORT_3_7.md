@@ -1,5 +1,13 @@
 # Records
 
+Here's your data organized into a markdown table for a clearer comparison:
+
+| Metric        | UPMC  | MGB   |
+|---------------|-------|-------|
+| Before Supervised (Weighted) | 0.670 | 0.488 |
+| Before Supervised (Non-weighted) | 0.655 | 0.450 |
+| After Supervised (Weighted)| 0.728 | 0.625 |
+
 ## Before supervised
 ### UPMC
 <p align="center">
