@@ -22,13 +22,18 @@ pt\_emb\_wgt = tf\_idf*diag(weight)*code\_emb
 ```
 3. We multiply the chart patient's embedding and the registry patient's embedding, select the biggest location to be the prediction of the registry-patients' prediction.
 4. Supervise:
- ```math
 Forward:
-pt\_emb\_chart = pt\_emb\_chart *U + 1*b^T (then row-normalize)
-pt\_emb\_registry = pt\_emb\_registry *U + 1*b^T (then row-normalize)
+
+ ```math
+pt\_emb\_chart = pt\_emb\_chart *U + 1*b^T \text{(then row-normalize)}
+
+pt\_emb\_registry = pt\_emb\_registry *U + 1*b^T \text{(then row-normalize)}
+
 cos_similarity = pt\_emb\_registry * pt\_emb\_chart^T
 ```
+
 In the loss function, we use the constractive learning. We divide the chart group into 3 parts: train, validation and test set (3:2:5). Then we use the labels in train set to train U and b.
+
  ```math
 P_j = {5 codes with minimum cosine similarity of j}
 N_j = {5 codes with maximun cosine similarity of j}
