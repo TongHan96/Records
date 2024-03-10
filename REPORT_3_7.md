@@ -22,13 +22,16 @@ pt\_emb\_wgt = tf\_idf*diag(weight)*code\_emb
 ```
 3. We multiply the chart patient's embedding and the registry patient's embedding, select the biggest location to be the prediction of the registry-patients' prediction.
 4. Supervise:
+
 Forward:
 
  ```math
 pt\_emb\_chart = pt\_emb\_chart *U + 1*b^T \text{(then row-normalize)}
-
+```
+```math
 pt\_emb\_registry = pt\_emb\_registry *U + 1*b^T \text{(then row-normalize)}
-
+```
+```math
 cos_similarity = pt\_emb\_registry * pt\_emb\_chart^T
 ```
 
