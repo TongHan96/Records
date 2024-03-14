@@ -63,30 +63,30 @@ Loss = \sum_{j} Loss_j
 ### Before supervised
 #### UPMC
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc_wgt.png" alt="UPMC_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.wgt.png" alt="UPMC_wgt" title="Weighted" width="400"/>
   <em>upmc weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/upmc.png" alt="UPMC" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.png" alt="UPMC" title="Origin" width="400"/>
   <em>upmc</em>
 </p>
 
 #### MGB
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/mgb_wgt.png" alt="MGB_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/mgb.wgt.png" alt="MGB_wgt" title="Weighted" width="400"/>
   <em>MGB weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/mgb.png" alt="MGB" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/mgb.png" alt="MGB" title="Origin" width="400"/>
   <em>MGB</em>
 </p>
 
-### After supervised
+<-----------### After supervised
 
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_mgb.png" alt="MGB" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/supervised_mgb.png" alt="MGB" title="Weighted" width="400"/>
   <em>MGB</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
   <em>UPMC</em>
-</p>
+</p>------------------>
 
 
