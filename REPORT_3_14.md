@@ -58,6 +58,13 @@ Loss = \sum_{j} Loss_j
 | Before Supervised (Non-weighted) | 0.655 | 0.450 |
 | After Supervised (Weighted)| 0.728 | 0.625 |
 
+| Metric        | UPMC  | MGB   |
+|---------------|-------|-------|
+| Before Supervised (Weighted) | 0.586 | 0.563 |
+| Before Supervised (Non-weighted) | 0.591 | 0.488 |
+| After Supervised (Weighted)| 0.728 | 0.625 |
+
+
 
 ## tsne  plot
 ### Before supervised
