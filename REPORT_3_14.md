@@ -83,17 +83,17 @@ Loss = \sum_{j} Loss_j
 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.upmc.png" alt="MGB" title="Weighted" width="400"/>
-  <em>MGB</em>
+  <em>UPMC chart</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.mgb.png" alt="UPMC" title="Origin" width="400"/>
-  <em>UPMC</em>
+  <em>MGB chart</em>
 </p>
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.cc.png" alt="MGB" title="Weighted" width="400"/>
-  <em>MGB</em>
+  <em>case & control</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.inst.png" alt="UPMC" title="Origin" width="400"/>
-  <em>UPMC</em>
+  <em>UPMC & MGB</em>
 </p>
 
 
