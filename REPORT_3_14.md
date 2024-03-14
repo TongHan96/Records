@@ -79,14 +79,21 @@ Loss = \sum_{j} Loss_j
   <em>MGB</em>
 </p>
 
-<-----------### After supervised
+#### Two institutions 
 
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/supervised_mgb.png" alt="MGB" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.upmc.png" alt="MGB" title="Weighted" width="400"/>
   <em>MGB</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/supervised_upmc.png" alt="UPMC" title="Origin" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.mgb.png" alt="UPMC" title="Origin" width="400"/>
   <em>UPMC</em>
-</p>------------------>
+</p>
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.cc.png" alt="MGB" title="Weighted" width="400"/>
+  <em>MGB</em>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.inst.png" alt="UPMC" title="Origin" width="400"/>
+  <em>UPMC</em>
+</p>
 
 
