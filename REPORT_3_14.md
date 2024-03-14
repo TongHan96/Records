@@ -63,7 +63,7 @@ Loss = \sum_{j} Loss_j
 ### Before supervised
 #### UPMC
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.wgt.png" alt="UPMC_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.weighted.png" alt="UPMC_wgt" title="Weighted" width="400"/>
   <em>upmc weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.png" alt="UPMC" title="Origin" width="400"/>
@@ -72,7 +72,7 @@ Loss = \sum_{j} Loss_j
 
 #### MGB
 <p align="center">
-  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/mgb.wgt.png" alt="MGB_wgt" title="Weighted" width="400"/>
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_new/mgb.weighted.png" alt="MGB_wgt" title="Weighted" width="400"/>
   <em>MGB weighted</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/mgb.png" alt="MGB" title="Origin" width="400"/>
