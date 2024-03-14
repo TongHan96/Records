@@ -90,10 +90,10 @@ Loss = \sum_{j} Loss_j
 </p>
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.cc.png" alt="MGB" title="Weighted" width="400"/>
-  <em>case & control</em>
+  <em>case&control</em>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/TongHan96/Records/blob/main/pic_new/upmc.mgb.wgt.inst.png" alt="UPMC" title="Origin" width="400"/>
-  <em>UPMC & MGB</em>
+  <em>2 inst</em>
 </p>
 
 
