@@ -64,6 +64,13 @@ Loss = \sum_{j} Loss_j
 | Before Supervised (Weighted) | 0.586 | 0.563 |
 | Before Supervised (Non-weighted) | 0.591 | 0.488 |
 
+| Metric        | UPMC  | MGB   |
+|---------------|-------|-------|
+| Main Code Count | 0.753 | 0.821 |
+| KOMAP | 0.777 | 0.493 |
+| GAME | 0.777 | 0.493 |
+
+
 
 ## tsne  plot
 ### Before supervised
