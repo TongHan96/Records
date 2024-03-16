@@ -64,11 +64,19 @@ Loss = \sum_{j} Loss_j
 | Before Supervised (Weighted) | 0.586 | 0.563 |
 | Before Supervised (Non-weighted) | 0.591 | 0.488 |
 
+### AUC
 | Metric        | UPMC  | MGB   |
 |---------------|-------|-------|
-| Main Code Count | 0.753 | 0.821 |
-| KOMAP | 0.777 | 0.493 |
-| GAME | 0.777 | 0.493 |
+| Main Code Count | 0.840 | 0.821 |
+| KOMAP |  0.836 | 0.793 |
+| GAME |  |  |
+
+###  Accuracy
+| Metric        | UPMC  | MGB   |
+|---------------|-------|-------|
+| Main Code Count | - | - |
+| KOMAP | 0.665 | 0.65 |
+| GAME |  |  |
 
 
 
