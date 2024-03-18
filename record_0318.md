@@ -39,17 +39,16 @@
 |-----------------|----------------|----------|--------|-------|
 |                 | UPMC Registry => UPMC Chart     |0.752  | 0.711   | (1e-1, 768)| 
 |                 | UPMC Registry => MGB Chart      |0.774  | 0.703    | (1e-2, 768) |
-| GAME            | UPMC Registry  |0.822   |  0.808  | (1, 768) |
-|                 | UPMC Chart     |0.754  | 0.713   | (1e+2, 3) |
-|                 | MGB Chart      |0.851  | 0.811     | (1e+2, 3) |
+| GAME            | UPMC Registry  |0.813   |  0.797  | (1, 768) |
+|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
+|                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
 
 ## Log Normalize 
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
-| GAME            | UPMC Registry  |0.791   |  0.770  | (1e-4, 768) |
-|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
-|                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
-|                 | UPMC Registry => UPMC Chart     |0.760  | 0.721   | (1e-3, 768)| 
-|                 | UPMC Registry => MGB Chart      |0.752  | 0.784     | (1e-3, 768) |
-
+|                 | UPMC Registry => UPMC Chart     |0.75   |  0.721  | (1e-1, 768) |
+|                 | UPMC Registry => MGB Chart      |0.766  | 0.716     | (1e-1, 768) |
+| GAME            | UPMC Registry  |0.75   |  0.721  | (1e-4, 768) |
+|                 | UPMC Chart     |0.777  | 0.733   | (10, 3) |
+|                 | MGB Chart      |0.85  | 0.811     | (10, 4) |
