@@ -1,3 +1,7 @@
+# Method
+1. Log means log the count in tf. Normalization means mornalize every patient embedding.
+2. 
+
 # Results
 
 | Metric          | Data Source    | AUC | Accuracy | Recall | Precision | F1 Score |
@@ -13,7 +17,9 @@
 |                 | MGB Chart      |     |          |        |           |          |
 
 # tf %*% cosine
-The result is a little wose than tfidf %*% cosine.
+
+**The result is a little worse than tfidf %*% cosine.**
+
 ## No Log No Normalize 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P5.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
