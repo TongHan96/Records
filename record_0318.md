@@ -8,6 +8,6 @@
 | KOMAP           | UPMC Registry  |     |          |        |           |          |
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
-| GAME            | UPMC Registry  |     |          |        |           |          |
+| GAME(NO LOG NO NORMALIZE)            | UPMC Registry  |     |          |        |           |          |
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
