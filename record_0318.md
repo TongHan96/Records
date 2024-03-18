@@ -17,7 +17,15 @@
 
 | Metric          | Data Source    | AUC | Accuracy | 
 |-----------------|----------------|----------|--------|
-| GAME            | UPMC Registry  |0.801   |  0.79  | 
+| GAME            | UPMC Registry  |0.801   |  0.790  | 
+|                 | UPMC Chart     |0.731  | 0.644   |  
+|                 | MGB Chart      |0.862  | 0.838     |  
+
+## Log No Normalize 
+
+| Metric          | Data Source    | AUC | Accuracy | 
+|-----------------|----------------|----------|--------|
+| GAME            | UPMC Registry  |0.801   |  0.790  | 
 |                 | UPMC Chart     |0.731  | 0.644   |  
 |                 | MGB Chart      |0.862  | 0.838     |  
 
