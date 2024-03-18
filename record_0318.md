@@ -16,6 +16,64 @@
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
 
+# tfidf %*% cosine^2
+## No Log No Normalize 
+
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P9.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Metric          | Data Source    | AUC | Accuracy | Param|
+|-----------------|----------------|----------|--------|--------|
+|                 | UPMC Registry => UPMC Chart     | 0.734|  0.726  |  (1e-6,3) |
+|                 | UPMC Registry => MGB Chart      | 0.746 | 0.743  |  (1e-5, 768) |
+| GAME            | UPMC Registry  |0.749   |  0.767  | (1e-2, 768)   |
+|                 | UPMC Chart     |0.770  | 0.733   | (1e-4,768)  |
+|                 | MGB Chart      |0.797  | 0.757     | (1,768) |
+
+
+
+## Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P2.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.760  | 0.721   | (1e-3, 768)| 
+|                 | UPMC Registry => MGB Chart      |0.752  | 0.784     | (1e-3, 768) |
+| GAME            | UPMC Registry  |0.791   |  0.770  | (1e-4, 768) |
+|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
+|                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
+
+
+## No Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P3.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.752  | 0.711   | (1e-1, 768)| 
+|                 | UPMC Registry => MGB Chart      |0.774  | 0.703    | (1e-2, 768) |
+| GAME            | UPMC Registry  |0.813   |  0.797  | (1, 768) |
+|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
+|                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
+
+## Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P4.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.750   |  0.721  | (1e-1, 768) |
+|                 | UPMC Registry => MGB Chart      |0.766  | 0.716     | (1e-1, 768) |
+| GAME            | UPMC Registry  |0.750   |  0.721  | (1e-4, 768) |
+|                 | UPMC Chart     |0.777  | 0.733   | (10, 3) |
+|                 | MGB Chart      |0.850  | 0.811     | (10, 4) |
+
+
 # tf %*% cosine
 
 **The result is a little worse than tfidf %*% cosine.**
