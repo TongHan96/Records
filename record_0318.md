@@ -16,6 +16,39 @@
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
 
+# tfidf %*% cosine^3
+## No Log No Normalize 
+
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P13.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+**The result is a little worse than tfidf %*% cosine.**
+
+## Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P14.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.775  | 0.761   | (1e-4, 768)| 
+|                 | UPMC Registry => MGB Chart      |0.766  | 0.784     | (1e-5, 768) |
+| GAME            | UPMC Registry  |0.842   |  0.726  | (1e-4, 768) |
+|                 | UPMC Chart     |0.844  | 0.782   | (1e-2, 3) |
+|                 | MGB Chart      |0.818  | 0.811     | (1, 768) |
+## No Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P15.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+**The result is a little worse than tfidf %*% cosine.**
+
+## Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P16.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+**The result is a little worse than tfidf %*% cosine.**
+
 # tfidf %*% cosine^2
 ## No Log No Normalize 
 
