@@ -1,11 +1,11 @@
-# SVM result
-Metric  AUC  accuracy  recall  precision  F1 score
-Main Count 
-Main Count
-Main Count
-KOMAP
-KOMAP
-KOMAP
-GAME
-GAME
-GAME
+| Metric     | Method         | AUC | Accuracy | Recall | Precision | F1 Score |
+|------------|----------------|-----|----------|--------|-----------|----------|
+|            | UPMC Registry  |     |          |        |           |          |
+| Main Count | UPMC Chart     |     |          |        |           |          |
+|            | MGB Chart      |     |          |        |           |          |
+|            | UPMC Registry  |     |          |        |           |          |
+| KOMAP      | UPMC Chart     |     |          |        |           |          |
+|            | MGB Chart      |     |          |        |           |          |
+|            | UPMC Registry  |     |          |        |           |          |
+| GAME       | UPMC Chart     |     |          |        |           |          |
+|            | MGB Chart      |     |          |        |           |          |
