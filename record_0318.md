@@ -13,9 +13,26 @@
 |                 | MGB Chart      |     |          |        |           |          |
 
 # tf %*% cosine
+The result is a little wose than tfidf %*% cosine.
+## No Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P5.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
 
+## Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P6.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
 
+## Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P7.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
 
+## Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P8.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
 
 # tfidf %*% cosine
 
