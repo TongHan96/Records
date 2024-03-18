@@ -1,16 +1,15 @@
 # Results
 
-
-| Metric     | Method         | AUC | Accuracy | Recall | Precision | F1 Score |
-|------------|----------------|-----|----------|--------|-----------|----------|
-|  | UPMC Registry  |     |          |        |           |          |
-| Main PheCode Count | UPMC Chart     |     |          |        |           |          |
-| | MGB Chart      |     |          |        |           |          |
-|------------|----------------|-----|----------|--------|-----------|----------|
-|      | UPMC Registry  |     |          |        |           |          |
-| KOMAP      | UPMC Chart     |     |          |        |           |          |
-|      | MGB Chart      |     |          |        |           |          |
-|------------|----------------|-----|----------|--------|-----------|----------|
-|     | UPMC Registry  |     |          |        |           |          |
-| GAME       | UPMC Chart     |     |          |        |           |          |
-|        | MGB Chart      |     |          |        |           |          |
+| Metric          | Data Source   | AUC  | Accuracy | Recall | Precision | F1 Score |
+|-----------------|---------------|------|----------|--------|-----------|----------|
+| Main PheCode Count| UPMC Registry |      |          |        |           |          |
+|                 | UPMC Chart    |      |          |        |           |          |
+|                 | MGB Chart     |      |          |        |           |          |
+|-----------------|---------------|------|----------|--------|-----------|----------|
+| KOMAP           | UPMC Registry |      |          |        |           |          |
+|                 | UPMC Chart    |      |          |        |           |          |
+|                 | MGB Chart     |      |          |        |           |          |
+|-----------------|---------------|------|----------|--------|-----------|----------|
+| GAME            | UPMC Registry |      |          |        |           |          |
+|                 | UPMC Chart    |      |          |        |           |          |
+|                 | MGB Chart     |      |          |        |           |          |
