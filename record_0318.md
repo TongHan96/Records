@@ -55,7 +55,11 @@
 
 
 # tfidf %*% cosine
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P1.png" alt="no log no normalization" title="no log no normalization" width="400"/>
+</p>
 ## No Log No Normalize 
+
 | Metric          | Data Source    | AUC | Accuracy | Param|
 |-----------------|----------------|----------|--------|--------|
 |                 | UPMC Registry => UPMC Chart     | 0.754|  0.682  |  (1e-6,4) |
