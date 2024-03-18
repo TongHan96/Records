@@ -31,8 +31,6 @@
 |                 | UPMC Chart     |0.770  | 0.733   | (1e-4,768)  |
 |                 | MGB Chart      |0.797  | 0.757     | (1,768) |
 
-
-
 ## Log No Normalize 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P2.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
@@ -40,11 +38,11 @@
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
-|                 | UPMC Registry => UPMC Chart     |0.760  | 0.721   | (1e-3, 768)| 
-|                 | UPMC Registry => MGB Chart      |0.752  | 0.784     | (1e-3, 768) |
-| GAME            | UPMC Registry  |0.791   |  0.770  | (1e-4, 768) |
-|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
-|                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
+|                 | UPMC Registry => UPMC Chart     |0.775  | 0.751   | (1e-4, 768)| 
+|                 | UPMC Registry => MGB Chart      |0.781  | 0.770     | (1e-5, 768) |
+| GAME            | UPMC Registry  |0.821   |  0.801  | (1e-4, 768) |
+|                 | UPMC Chart     |0.838  | 0.792   | (1e-3, 768) |
+|                 | MGB Chart      |0.845  | 0.838     | (1, 768) |
 
 
 ## No Log Normalize 
