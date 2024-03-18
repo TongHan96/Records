@@ -6,9 +6,11 @@
 |  | UPMC Registry  |     |          |        |           |          |
 | Main PheCode Count | UPMC Chart     |     |          |        |           |          |
 | | MGB Chart      |     |          |        |           |          |
+|------------|----------------|-----|----------|--------|-----------|----------|
 |      | UPMC Registry  |     |          |        |           |          |
 | KOMAP      | UPMC Chart     |     |          |        |           |          |
 |      | MGB Chart      |     |          |        |           |          |
+|------------|----------------|-----|----------|--------|-----------|----------|
 |     | UPMC Registry  |     |          |        |           |          |
 | GAME       | UPMC Chart     |     |          |        |           |          |
 |        | MGB Chart      |     |          |        |           |          |
