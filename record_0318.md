@@ -16,6 +16,14 @@
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
 
+# KOMAP
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|
+| feature(5%) by GAME by type  | 0.794  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
+| feature(5%) by GAME | 0.797  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
+| all feature     |0.797  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
+
 # tfidf %*% cosine^3
 ## No Log No Normalize 
 
