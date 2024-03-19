@@ -12,7 +12,7 @@
 
 # KOMAP
 
-| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+| Method        |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|
 | feature(5%) by GAME by type  | 0.794  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
 | feature(5%) by GAME | 0.797  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
@@ -26,7 +26,7 @@
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
-| tf %*% wgt | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
+| tf %*% wgt | 0.794  | 0.689   |  0.671  | 0.714   |  0.805  | 0.7   |  0.785  | 0.694   | (10,4)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -43,7 +43,7 @@
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
-| tf %*% wgt  | 0.766  | 0.788   |  0.737  | 0.707   |  0.85  | 0.802   |  0.743  | 0.791   | (10,2)|
+| tf %*% wgt  | 0.77  | 0.775   |  0.819  | 0.769   |  0.799  | 0.719   |  0.744  | 0.783   | (10,2)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -76,7 +76,7 @@
 |-----------------|----------------|----------|--------|-------|
 |                 | UPMC Registry => UPMC Chart     |0.775  | 0.761   | (1e-4, 768)| 
 |                 | UPMC Registry => MGB Chart      |0.766  | 0.784     | (1e-5, 768) |
-| GAME            | UPMC Registry  |0.842   |  0.726  | (1e-4, 768) |
+| GAME            | UPMC Registry  |0.828   |  0.751  | (1e-3, 768) |
 |                 | UPMC Chart     |0.844  | 0.782   | (1e-2, 3) |
 |                 | MGB Chart      |0.818  | 0.811     | (1, 768) |
 ## No Log Normalize 
@@ -197,7 +197,7 @@
 |                 | UPMC Registry => UPMC Chart     |0.760  | 0.721   | (1e-3, 768)| 
 |                 | UPMC Registry => MGB Chart      |0.752  | 0.784     | (1e-3, 768) |
 | GAME            | UPMC Registry  |0.791   |  0.770  | (1e-4, 768) |
-|                 | UPMC Chart     |0.816  | 0.752   | (1e-3, 768) |
+|                 | UPMC Chart     |0.839  | 0.792   | (1e-4, 2) |
 |                 | MGB Chart      |0.839  | 0.838     | (1e-1, 768) |
 
 
