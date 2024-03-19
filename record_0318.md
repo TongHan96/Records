@@ -78,12 +78,14 @@
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P15.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
 **The result is a little worse than tfidf %*% cosine.**
 
 ## Log Normalize 
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P16.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
 **The result is a little worse than tfidf %*% cosine.**
 
 # tfidf %*% cosine^2
@@ -126,6 +128,7 @@
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P12.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
 **The result is a little worse than tfidf %*% cosine.**
 
 # tf %*% cosine
