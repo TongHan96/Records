@@ -2,7 +2,8 @@
 ## Methods
 1. "LOG" refers to taking the logarithm of the count in term frequency (tf).
 2. "NOR" involves normalizing each patient's embedding.
-
+3. The input for KOMAP includes using all patient data (after the first AD-related codes) from MGB and UPMC to build the training and validation covariance matrices. It selects codified features using the cosine similarity of GAME embeddings (top 5%), and performs a log(x+1) transformation of the count data.
+4. The input for our method utilizes both chart and registry data (after the first AD-related codes) from MGB and UPMC. It explores different weights, clusters the points using SVM, and considers dimension reduction as a tunable parameter, which can be set to 2, 3, 4, 5, or 768.
 ## Tsne
 ### tf * KOMAP_wgt * GAME (LOG) 
 <p align="center">
