@@ -4,17 +4,10 @@
 
 # Results
 
-| Metric          | Data Source    | AUC | Accuracy | Recall | Precision | F1 Score |
-|-----------------|----------------|-----|----------|--------|-----------|----------|
-| Main PheCode    | UPMC Registry  |     |          |        |           |          |
-|                 | UPMC Chart     |     |          |        |           |          |
-|                 | MGB Chart      |     |          |        |           |          |
-
-| Metric          | Data Source    | AUC | Accuracy | Recall | Precision | F1 Score |
-|-----------------|----------------|-----|----------|--------|-----------|----------|
-| KOMAP           | UPMC Registry  |     |          |        |           |          |
-|                 | UPMC Chart     |     |          |        |           |          |
-|                 | MGB Chart      |     |          |        |           |          |
+# Main PheCode Count
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|
+| All | 0.751  | -  |  0.804  | -   |  0.728  | -   |  0.796  | -   |
 
 
 # KOMAP
@@ -33,7 +26,7 @@
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
-| feature(5%) by GAME by type  | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
+| GAME | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
