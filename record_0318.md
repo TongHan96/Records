@@ -26,7 +26,7 @@
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
-| GAME | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
+| tf %*% wgt | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -43,7 +43,7 @@
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
-| feature(5%) by GAME by type  | 0.766  | 0.788   |  0.737  | 0.707   |  0.85  | 0.802   |  0.743  | 0.791   | (10,2)|
+| tf %*% wgt  | 0.766  | 0.788   |  0.737  | 0.707   |  0.85  | 0.802   |  0.743  | 0.791   | (10,2)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -66,6 +66,11 @@
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P14.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| tf %*% cosine^3  | 0.833  | 0.724   |  0.648  | 0.789   |  0.83  | 0.794   |  0.827  | 0.708   | (1e-4,768)|
+
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -95,6 +100,7 @@
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P9.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
 
+
 | Metric          | Data Source    | AUC | Accuracy | Param|
 |-----------------|----------------|----------|--------|--------|
 |                 | UPMC Registry => UPMC Chart     | 0.734|  0.726  |  (1e-6,3) |
@@ -107,6 +113,10 @@
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P10.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| tf %*% cosine^2  | 0.826  | 0.745   |  0.679  | 0.763   |  0.819  | 0.785   |  0.818  | 0.737   | (1e-4,768)|
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
@@ -178,6 +188,10 @@
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P2.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
 
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| tf %*% cosine  | 0.808  | 0.745   |  0.679  | 0.737   |  0.822  | 0.776   |  0.796  | 0.740   | (1e-4,768)|
+
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
 |                 | UPMC Registry => UPMC Chart     |0.760  | 0.721   | (1e-3, 768)| 
@@ -192,6 +206,10 @@
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P3.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
 
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| tf %*% cosine  | 0.803  | 0.763   |  0.792  | 0.697   |  0.715  | 0.680   |  0.802  | 0.780   | (1,768)|
+
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
 |                 | UPMC Registry => UPMC Chart     |0.752  | 0.711   | (1e-1, 768)| 
@@ -204,6 +222,11 @@
 <p align="center">
   <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P4.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
 </p>
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| tf %*% cosine  | 0.805  | 0.777   |  0.752  | 0.722   |  0.654  | 0.604   |  0.822  | 0.810   | (1,768)|
+
 
 | Metric          | Data Source    | AUC | Accuracy |Param| 
 |-----------------|----------------|----------|--------|-------|
