@@ -16,13 +16,49 @@
 |                 | UPMC Chart     |     |          |        |           |          |
 |                 | MGB Chart      |     |          |        |           |          |
 
+
 # KOMAP
 
 | Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
 |-----------------|----------|--------|----------|--------|----------|--------|----------|--------|
 | feature(5%) by GAME by type  | 0.794  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
 | feature(5%) by GAME | 0.797  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
-| all feature     |0.797  | 0.725   |  0.807  | 0.730   |  0.818  | 0.766   |  0.780  | 0.718   | 
+
+# tf %*% wgt from KOMAP
+
+## Log No Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P17.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| feature(5%) by GAME by type  | 0.805  | 0.712   |  0.891  | 0.769   |  0.826  | 0.796   |  0.785  | 0.694   | (10,4)|
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.821  | 0.776   | (1e-2, 2)| 
+|                 | UPMC Registry => MGB Chart      |0.789  | 0.824     | (10, 4) |
+| GAME            | UPMC Registry  |0.811   |  0.767  | (1e+3, 768) |
+|                 | UPMC Chart     |0.854  | 0.812   | (1e+3, 3) |
+|                 | MGB Chart      |0.783  | 0.838     | (1, 4) |
+
+## Log Normalize 
+<p align="center">
+  <img src="https://github.com/TongHan96/Records/blob/main/pic_0318/P18.png" alt="no log no normalization" title="no log no normalization" width="1000"/>
+</p>
+
+| Method          |  AUC | Accuracy | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy | Param|
+|-----------------|----------|--------|----------|--------|----------|--------|----------|--------|-------|
+| feature(5%) by GAME by type  | 0.766  | 0.788   |  0.737  | 0.707   |  0.85  | 0.802   |  0.743  | 0.791   | (10,2)|
+
+| Metric          | Data Source    | AUC | Accuracy |Param| 
+|-----------------|----------------|----------|--------|-------|
+|                 | UPMC Registry => UPMC Chart     |0.794  | 0.766   | (1, 768)| 
+|                 | UPMC Registry => MGB Chart      |0.778  | 0.757     | (0.1, 768) |
+| GAME            | UPMC Registry  |0.754   |  0.793  | (1e-2, 768) |
+|                 | UPMC Chart     |0.818  | 0.782   | (1, 3) |
+|                 | MGB Chart      |0.865  | 0.811     | (1, 768) |
 
 # tfidf %*% cosine^3
 ## No Log No Normalize 
