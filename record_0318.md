@@ -123,8 +123,8 @@
 |                 | UPMC Registry => UPMC Chart     |0.775  | 0.751   | (1e-4, 768)| 
 |                 | UPMC Registry => MGB Chart      |0.781  | 0.770     | (1e-5, 768) |
 | GAME            | UPMC Registry  |0.821   |  0.801  | (1e-4, 768) |
-|                 | UPMC Chart     |0.838  | 0.792   | (1e-3, 768) |
-|                 | MGB Chart      |0.845  | 0.838     | (1, 768) |
+|                 | UPMC Chart     |0.838  | 0.802   | (1e-3, 768) |
+|                 | MGB Chart      |0.853  | 0.811     | (1e-2, 768) |
 
 
 ## No Log Normalize 
