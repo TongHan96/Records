@@ -1,7 +1,7 @@
 # Report
 ## Methods
-1. Log means log the count in tf.
-2. Normalization means mornalize every patient embedding.
+1. "LOG" refers to taking the logarithm of the count in term frequency (tf).
+2. "NOR" involves normalizing each patient's embedding.
 
 ## Tsne
 ### tf * KOMAP_wgt * GAME (LOG) 
