@@ -54,3 +54,4 @@
 |                   KOMAP                  |     0.807     |       0.730        |      0.818     |        0.766        |    0.780     |       0.718       |
 |    tf * KOMAP_wgt * GAME (LOG)  COSINE   |     0.817     |          -         |      0.816     |          -          |    0.732     |         -         |
 |    tf * KOMAP_wgt * GAME (LOG)  L2       |     0.768     |          -         |      0.824     |          -          |    0.726     |         -         |
+|    unsupervised KMeans                   |     0.627     |          -         |      0.748     |          -          |    0.678     |         -         |
