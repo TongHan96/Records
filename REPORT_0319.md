@@ -48,3 +48,9 @@
 | tfidf * GAME_cosine^2 * GAME (LOG)       |     0.853     |       0.811        |      0.838     |        0.802        |    0.821     |       **0.801**   |
 | tfidf * GAME_cosine^3 * GAME (LOG)       |     0.818     |       0.811        |      0.844     |        0.782        |  **0.828**   |       0.751       |
 
+|                  Method                  | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+|:----------------------------------------:|:-------------:|:------------------:|:--------------:|:-------------------:|:------------:|:-----------------:|
+|             Main PheCode Count           |     0.796     |         -          |      0.804     |          -          |    0.728     |         -         |
+|                   KOMAP                  |     0.807     |       0.730        |      0.818     |        0.766        |    0.780     |       0.718       |
+|    tf * KOMAP_wgt * GAME (LOG)  COSINE   |     0.817     |          -         |      0.816     |          -          |    0.732     |         -         |
+|    tf * KOMAP_wgt * GAME (LOG)  L2       |     0.768     |          -         |      0.824     |          -          |    0.726     |         -         |
