@@ -1,4 +1,4 @@
-# Report
+![image](https://github.com/TongHan96/Records/assets/95742388/78564102-4e03-4954-900a-1db8efd9fdac)# Report
 ## Methods
 1. "LOG" refers to taking the logarithm of the count in term frequency (tf).
 2. "NOR" involves normalizing each patient's embedding.
@@ -58,3 +58,5 @@
 |    tf * KOMAP_wgt * GAME (LOG NOR)  L2       |     0.786     |          -         |      0.816     |          -          |    0.744     |         -         |
 |    tf * KOMAP_wgt * GAME (LOG) KMeans        |     0.627     |          -         |      0.748     |          -          |    0.678     |         -         |
 |    tf * KOMAP_wgt * GAME (LOG NOR) KMeans    |     0.717     |          -         |      0.743     |          -          |    0.675     |         -         |
+
+
