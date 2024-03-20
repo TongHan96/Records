@@ -1,4 +1,4 @@
-![image](https://github.com/TongHan96/Records/assets/95742388/78564102-4e03-4954-900a-1db8efd9fdac)# Report
+# Report
 ## Methods
 1. "LOG" refers to taking the logarithm of the count in term frequency (tf).
 2. "NOR" involves normalizing each patient's embedding.
@@ -48,7 +48,7 @@
 | tfidf * GAME_cosine^2 * GAME (LOG)       |     0.853     |       0.811        |      0.838     |        0.802        |    0.821     |       **0.801**   |
 | tfidf * GAME_cosine^3 * GAME (LOG)       |     0.818     |       0.811        |      0.844     |        0.782        |  **0.828**   |       0.751       |
 
-|                  Method                  | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+|    Method     | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
 |:----------------------------------------:|:-------------:|:------------------:|:--------------:|:-------------------:|:------------:|:-----------------:|
 |             Main PheCode Count           |     0.796     |         -          |      0.804     |          -          |    0.728     |         -         |
 |                   KOMAP                  |     0.807     |       0.730        |      0.818     |        0.766        |    0.780     |       0.718       |
@@ -60,3 +60,13 @@
 |    tf * KOMAP_wgt * GAME (LOG NOR) KMeans    |     0.717     |          -         |      0.743     |          -          |    0.675     |         -         |
 
 
+|                  Method                  | MGB chart AUC | MGB chart Accuracy | UPMC chart AUC | UPMC chart Accuracy | UPMC reg AUC | UPMC reg Accuracy |
+|:----------------------------------------:|:-------------:|:------------------:|:--------------:|:-------------------:|:------------:|:-----------------:|
+|             Main PheCode Count           |     0.796     |         -          |      0.804     |          -          |    0.728     |         -         |
+|                   KOMAP                  |     0.807     |       0.730        |      0.818     |        0.766        |    0.780     |       0.718       |
+|    tf * KOMAP_wgt * GAME (LOG)           |     0.809     |     0.716      |    0.798   |      0.755      |    0.809     |       0.734       |
+|    tf * KOMAP_wgt * GAME (LOG NOR)       |   **0.865**   |       0.811        |      0.818     |        0.782        |    0.754     |     0.793         |
+|   tfidf * GAME_cosine * GAME (LOG)       |     0.839     |     **0.838**      |      0.829     |        0.792        |    0.791     |       0.770       |
+| tfidf * GAME_cosine * GAME (LOG NOR)     |     0.850     |       0.811        |      0.777     |        0.733        |    0.750     |       0.721       |
+| tfidf * GAME_cosine^2 * GAME (LOG)       |     0.853     |       0.811        |      0.838     |        0.802        |    0.821     |       **0.801**   |
+| tfidf * GAME_cosine^3 * GAME (LOG)       |     0.818     |       0.811        |      0.844     |        0.782        |  **0.828**   |       0.751       |
